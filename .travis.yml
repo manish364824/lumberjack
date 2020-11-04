@@ -1,3 +1,7 @@
 language: go
 
+arch:
+ - amd64
+ - ppc64le
+
 install:  go get -d -t -v github.com/natefinch/lumberjack
